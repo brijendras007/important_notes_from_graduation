@@ -1,0 +1,895 @@
+2019-02-03 22:50:35 PM com.xiaomi.midrop [Thread:28662] MIIDManager startMIIDUpdateListener failed cause lack of GET_ACCOUNTS permission 
+2019-02-03 22:50:36 PM com.xiaomi.midrop [Thread:28689] JOB: Init Job 
+2019-02-03 22:50:36 PM com.xiaomi.midrop [Thread:1] XMPushService created pid = 27528 
+2019-02-03 22:50:36 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = action_cr_config 
+2019-02-03 22:50:36 PM com.xiaomi.midrop [Thread:28689] JOB: prepare the mi push account. 
+2019-02-03 22:50:36 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-02-03 22:50:36 PM com.xiaomi.midrop [Thread:28689] network changed, no active network 
+2019-02-03 22:50:36 PM com.xiaomi.midrop [Thread:28689] JOB: disconnect the connection. 
+2019-02-03 22:50:36 PM com.xiaomi.midrop [Thread:28689] disconnect 225192396, null 
+2019-02-03 22:50:44 PM com.xiaomi.midrop [Thread:28684] Don't send message before initialization succeeded! 
+2019-02-03 22:50:44 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-02-03 22:50:44 PM com.xiaomi.midrop [Thread:28689] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-02-03 22:50:44 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = com.xiaomi.mipush.REGISTER_APP 
+2019-02-03 22:50:44 PM com.xiaomi.midrop [Thread:28689] JOB: do reconnect.. 
+2019-02-03 22:50:45 PM com.xiaomi.midrop [Thread:28689] should not connect. quit the job. 
+2019-02-03 22:50:45 PM com.xiaomi.midrop [Thread:28689] JOB: register app 
+2019-02-03 22:51:03 PM com.xiaomi.midrop [Thread:28689] JOB: prepare the mi push account. 
+2019-02-03 22:51:03 PM com.xiaomi.midrop [Thread:28689] JOB: do reconnect.. 
+2019-02-03 22:51:03 PM com.xiaomi.midrop [Thread:28689] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-02-03 22:51:03 PM com.xiaomi.midrop [Thread:28689] begin to connect to app.chat.global.xiaomi.net 
+2019-02-03 22:51:06 PM com.xiaomi.midrop [Thread:28689] tcp connected 
+2019-02-03 22:51:06 PM com.xiaomi.midrop [Thread:28689] load config failure: /data/user/0/com.xiaomi.midrop/files/XMCloudCfg (No such file or directory) 
+2019-02-03 22:51:06 PM com.xiaomi.midrop [Thread:28689] [slim] open conn: andver=25 sdk=37 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20190108.180403 
+2019-02-03 22:51:06 PM com.xiaomi.midrop [Thread:28689] connected to app.chat.global.xiaomi.net in 3147 
+2019-02-03 22:51:07 PM com.xiaomi.midrop [Thread:28707] setChallenge hash = fc446d54 
+2019-02-03 22:51:07 PM com.xiaomi.midrop [Thread:28707] update the connection status. connecting -> connected : ERROR_OK  
+2019-02-03 22:51:07 PM com.xiaomi.midrop [Thread:28689] JOB: bind the client. 5 
+2019-02-03 22:51:07 PM com.xiaomi.midrop [Thread:28689] update the client 5 status. unbind->binding unknown ERROR_OK null null 
+2019-02-03 22:51:07 PM com.xiaomi.midrop [Thread:28689] [Slim]: bind id=vAUQS-1 
+2019-02-03 22:51:07 PM com.xiaomi.midrop [Thread:28707] [Slim] CONN: host = cbbb 
+2019-02-03 22:51:11 PM com.xiaomi.midrop [Thread:28689] SMACK: channel bind succeeded, chid=5 
+2019-02-03 22:51:11 PM com.xiaomi.midrop [Thread:28689] Perf_code  packetType  1001  length 343 
+2019-02-03 22:51:11 PM com.xiaomi.midrop [Thread:28689] try send mi push message. packagename:com.xiaomi.midrop action:Registration 
+2019-02-03 22:51:11 PM com.xiaomi.midrop [Thread:28689] update the client 5 status. binding->binded OPEN ERROR_OK null null 
+2019-02-03 22:51:11 PM com.xiaomi.midrop [Thread:28689] JOB: notify job 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] receive a message, appid=2882303761517389432, msgid= bwTg1 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] Perf_code  packetType  1001  length 533 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28711] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28711] processing a message, action=Registration 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28711] Perf_code  packetType  2037  length 227 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28711] Perf_code  packetType  2041  length 264 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28711] Perf_code  packetType  2016  length 225 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] Perf_code  packetType  1009  length 264 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28711] Perf_code  packetType  1003  length 243 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] Perf_code  packetType  1009  length 227 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28711] ASSEMBLE_PUSH : assemble push register 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28711] ASSEMBLE_PUSH :  FCM user switch : true FCM online switch : false FCM isSupport : true 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] Perf_code  packetType  1009  length 225 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] Perf_code  packetType  1003  length 243 
+2019-02-03 22:51:12 PM com.xiaomi.midrop [Thread:28689] try send mi push message. packagename:com.xiaomi.midrop action:Subscription 
+2019-02-03 22:51:13 PM com.xiaomi.midrop [Thread:28689] receive a message, appid=2882303761517389432, msgid= bwTg3 
+2019-02-03 22:51:13 PM com.xiaomi.midrop [Thread:28689] Perf_code  packetType  1003  length 383 
+2019-02-03 22:51:13 PM com.xiaomi.midrop [Thread:28711] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-02-03 22:51:13 PM com.xiaomi.midrop [Thread:28711] processing a message, action=Subscription 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28707] [Slim] read Blob [] Err:Software caused connection abort 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] JOB: shutdown the connection. 9, java.net.SocketException: Software caused connection abort 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] disconnect 225192396, 99194565 
+2019-02-03 22:51:57 PM com.xiaomi.midrop  
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:112)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:157)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.xiaomi.g.c.a(Unknown Source)
+	at com.xiaomi.g.f.a(Unknown Source)
+	at com.xiaomi.h.h.b(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.a(Unknown Source)
+	at com.xiaomi.h.j.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bl$c.run(Unknown Source)
+
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] update the connection status. connected -> disconnected : ERROR_READ_ERROR  
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] update the client 5 status. binded->unbind CLOSE ERROR_READ_ERROR null null 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] JOB: notify job 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] network changed, no active network 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] JOB: disconnect the connection. 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] disconnect 225192396, null 
+2019-02-03 22:51:57 PM com.xiaomi.midrop [Thread:28689] JOB: notify job 
+2019-02-03 22:52:04 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-02-03 22:52:04 PM com.xiaomi.midrop [Thread:28689] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-02-03 22:52:04 PM com.xiaomi.midrop [Thread:28689] JOB: do reconnect.. 
+2019-02-03 22:52:04 PM com.xiaomi.midrop [Thread:28689] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-02-03 22:52:04 PM com.xiaomi.midrop [Thread:28689] begin to connect to app.chat.global.xiaomi.net 
+2019-02-03 22:52:05 PM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-02-03 22:52:05 PM com.xiaomi.midrop [Thread:28720] network exception: IOException:UnknownHostException 
+2019-02-03 22:52:05 PM com.xiaomi.midrop [Thread:28720] failed to get bucket IOException:UnknownHostException 
+2019-02-03 22:52:05 PM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:UnknownHostException
+: 
+	at com.xiaomi.h.h.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.i(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bl$c.run(Unknown Source)
+
+2019-02-03 22:52:05 PM com.xiaomi.midrop [Thread:28689] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-02-03 22:52:05 PM com.xiaomi.midrop [Thread:28689] schedule reconnect in 500ms 
+2019-02-03 22:52:05 PM com.xiaomi.midrop [Thread:28689] JOB: notify job 
+2019-02-03 22:52:06 PM com.xiaomi.midrop [Thread:28689] JOB: do reconnect.. 
+2019-02-03 22:52:06 PM com.xiaomi.midrop [Thread:28689] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-02-03 22:52:06 PM com.xiaomi.midrop [Thread:28689] begin to connect to app.chat.global.xiaomi.net 
+2019-02-03 22:52:13 PM com.xiaomi.midrop [Thread:28689] tcp connected 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28689] [slim] open conn: andver=25 sdk=37 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20190108.180403 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28689] connected to app.chat.global.xiaomi.net in 8070 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28727] setChallenge hash = 4a1953ef 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28727] update the connection status. connecting -> connected : ERROR_OK  
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28689] JOB: bind the client. 5 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28727] [Slim] CONN: host = f737 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28689] update the client 5 status. unbind->binding unknown ERROR_OK null null 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28689] [Slim]: bind id=vAUQS-8 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28689] SMACK: channel bind succeeded, chid=5 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28689] update the client 5 status. binding->binded OPEN ERROR_OK null null 
+2019-02-03 22:52:14 PM com.xiaomi.midrop [Thread:28689] JOB: notify job 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28727] [Slim] read Blob [] Err:Software caused connection abort 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] JOB: shutdown the connection. 9, java.net.SocketException: Software caused connection abort 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] disconnect 225192396, 99194565 
+2019-02-03 22:52:21 PM com.xiaomi.midrop  
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:112)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:157)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.xiaomi.g.c.a(Unknown Source)
+	at com.xiaomi.g.f.a(Unknown Source)
+	at com.xiaomi.h.h.b(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.a(Unknown Source)
+	at com.xiaomi.h.j.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bl$c.run(Unknown Source)
+
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] update the connection status. connected -> disconnected : ERROR_READ_ERROR  
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] schedule reconnect in 750ms 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] update the client 5 status. binded->unbind CLOSE ERROR_READ_ERROR null null 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] JOB: notify job 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] network changed, no active network 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] JOB: disconnect the connection. 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] disconnect 225192396, null 
+2019-02-03 22:52:21 PM com.xiaomi.midrop [Thread:28689] JOB: notify job 
+2019-02-03 22:52:22 PM com.xiaomi.midrop [Thread:28689] JOB: do reconnect.. 
+2019-02-03 22:52:22 PM com.xiaomi.midrop [Thread:28689] should not connect. quit the job. 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18527] MIIDManager startMIIDUpdateListener failed cause lack of GET_ACCOUNTS permission 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18530] Perf_code  packetType  2048  length 574 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18527] Perf_code  packetType  2048  length 574 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18527] do sync info 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18527] Perf_code  packetType  2022  length 724 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18527] Perf_code  packetType  2027  length 308 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18549] Perf_code  packetType  2048  length 574 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Init Job 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: prepare the mi push account. 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:1] XMPushService created pid = 25982 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:20 PM com.xiaomi.midrop receiving an empty message, drop 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = action_cr_config 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] JOB: do reconnect.. 
+2019-08-27 17:08:20 PM com.xiaomi.midrop [Thread:18552] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-08-27 17:08:21 PM com.xiaomi.midrop [Thread:18552] load bucket failure: the host is empty 
+2019-08-27 17:08:21 PM com.xiaomi.midrop [Thread:18552] begin to connect to app.chat.global.xiaomi.net 
+2019-08-27 17:08:25 PM com.xiaomi.midrop [Thread:18527] Perf_code  packetType  2016  length 266 
+2019-08-27 17:08:25 PM com.xiaomi.midrop [Thread:1] Perf_code  packetType  2048  length 574 
+2019-08-27 17:08:25 PM com.xiaomi.midrop [Thread:1] Perf_code  packetType  2048  length 574 
+2019-08-27 17:08:25 PM com.xiaomi.midrop [Thread:1] Perf_code  packetType  2048  length 574 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] tcp connected 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] load config failure: /data/user/0/com.xiaomi.midrop/files/XMCloudCfg (No such file or directory) 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] [slim] open conn: andver=25 sdk=38 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20190703.205302 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] connected to app.chat.global.xiaomi.net in 5296 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18561] setChallenge hash = 4349a214 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18561] update the connection status. connecting -> connected : ERROR_OK  
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] JOB: bind the client. 5 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] update the client 5 status. unbind->binding unknown ERROR_OK null null 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18552] [Slim]: bind id=55I4U-1 
+2019-08-27 17:08:26 PM com.xiaomi.midrop [Thread:18561] [Slim] CONN: host = 5bbc 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] SMACK: channel bind succeeded, chid=5 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 302 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 425 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 284 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 574 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 574 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 724 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 308 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 574 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 266 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 574 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 574 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 574 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] update the client 5 status. binding->binded OPEN ERROR_OK null null 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] JOB: notify job 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18530] processing a message, action=Notification 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18530] Perf_code  packetType  2018  length 526 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.REGISTER_APP 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] JOB: register app 
+2019-08-27 17:08:27 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1001  length 313 
+2019-08-27 17:08:28 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Registration 
+2019-08-27 17:08:28 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:28 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:28 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:28 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:28 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:28 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:28 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:28 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:28 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:28 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:30 PM com.xiaomi.midrop [Thread:1] Don't send message before initialization succeeded! 
+2019-08-27 17:08:30 PM com.xiaomi.midrop [Thread:1] Don't send message before initialization succeeded! 
+2019-08-27 17:08:30 PM com.xiaomi.midrop [Thread:1] Don't send message before initialization succeeded! 
+2019-08-27 17:08:31 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:31 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:31 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:31 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:31 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:31 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:31 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:31 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:35 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-08-27 17:08:35 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 526 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= DxFN8 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1001  length 635 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] processing a message, action=Registration 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] Perf_code  packetType  1003  length 287 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] Perf_code  packetType  1003  length 287 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] ASSEMBLE_PUSH : assemble push register 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] ASSEMBLE_PUSH : send token upload 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] Perf_code  packetType  2048  length 575 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1003  length 287 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Subscription 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1003  length 287 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Subscription 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 575 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= DxFN11 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 760 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] processing a message, action=Notification 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] Perf_code  packetType  2048  length 760 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18530] ASSEMBLE_PUSH : receive fcm token sync ack 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18527] ASSEMBLE_PUSH : receive correct token 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18527] ASSEMBLE_PUSH : update sp file success!  fftuPHvvWvQ:APA91bHXPcrBomcoSYi_x4vuNvEfv6WmHm8xxxN9GBSyPl7zAhECULR9AngTCpaBh1U-hEuRs1d7_9HPxtNOp8a8sBy1KhXJgnumdPtkANSA7MymU_d68ynZJOFGt0mEOBTb0L4U4Cvl 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= DxFN9 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1003  length 453 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= DxFN10 
+2019-08-27 17:08:36 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1003  length 455 
+2019-08-27 17:08:37 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:37 PM com.xiaomi.midrop [Thread:18530] processing a message, action=Subscription 
+2019-08-27 17:08:37 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:37 PM com.xiaomi.midrop [Thread:18530] processing a message, action=Subscription 
+2019-08-27 17:08:51 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 326 
+2019-08-27 17:08:51 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-08-27 17:08:52 PM com.xiaomi.midrop [Thread:18552] receive a message, appid=2882303761517389432, msgid= DxFN12 
+2019-08-27 17:08:52 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 919 
+2019-08-27 17:08:53 PM com.xiaomi.midrop [Thread:18530] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-08-27 17:08:53 PM com.xiaomi.midrop [Thread:18530] processing a message, action=Notification 
+2019-08-27 17:08:53 PM com.xiaomi.midrop [Thread:18530] Perf_code  packetType  2008  length 919 
+2019-08-27 17:10:00 PM com.xiaomi.midrop [Thread:18527] Perf_code  packetType  2017  length 9647 
+2019-08-27 17:10:00 PM com.xiaomi.midrop [Thread:18552] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-08-27 17:10:00 PM com.xiaomi.midrop [Thread:18552] Perf_code  packetType  1009  length 9647 
+2019-08-27 17:10:00 PM com.xiaomi.midrop [Thread:18552] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-10-10 09:51:13 AM com.xiaomi.midrop [Thread:25787] MIIDManager startMIIDUpdateListener failed cause lack of GET_ACCOUNTS permission 
+2019-10-10 09:51:22 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:51:22 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:SocketTimeoutException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 0ms 
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] network changed,[type: MOBILE[EDGE], state: CONNECTED/CONNECTED 
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = com.xiaomi.mipush.REGISTER_APP 
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = action_cr_config 
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:51:22 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:51:30 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:51:30 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:SocketTimeoutException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:51:30 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:51:30 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 18356ms 
+2019-10-10 09:51:30 AM com.xiaomi.midrop [Thread:25808] JOB: register app 
+2019-10-10 09:51:30 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:51:30 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:51:30 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:51:30 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:51:30 AM com.xiaomi.midrop [Thread:25820] receive an intent from server, action=com.xiaomi.mipush.ERROR 
+2019-10-10 09:51:30 AM com.xiaomi.midrop receive a error message. code = 70000001, msg=  the push is not connected. 
+2019-10-10 09:51:34 AM com.xiaomi.midrop [Thread:25813] network exception: IOException:SocketTimeoutException 
+2019-10-10 09:51:34 AM com.xiaomi.midrop [Thread:25813] failed to get bucket IOException:SocketTimeoutException 
+2019-10-10 09:51:38 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:51:38 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:SocketTimeoutException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:51:38 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:51:38 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 25010ms 
+2019-10-10 09:51:38 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:52:03 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:52:03 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:52:03 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:52:11 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:52:11 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:SocketTimeoutException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:52:11 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:52:11 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 17400ms 
+2019-10-10 09:52:11 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:52:29 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:52:29 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:52:29 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:52:37 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:52:37 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:SocketTimeoutException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:52:37 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:52:37 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 124336ms 
+2019-10-10 09:52:37 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:52:40 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:52:40 AM com.xiaomi.midrop [Thread:25808] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-10-10 09:52:40 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:52:40 AM com.xiaomi.midrop [Thread:25808] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-10-10 09:52:40 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:52:40 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:52:40 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:52:55 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:52:55 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:UnknownHostException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:52:55 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:52:55 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 82753ms 
+2019-10-10 09:52:55 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:52:55 AM com.xiaomi.midrop [Thread:25841] network exception: IOException:SocketException 
+2019-10-10 09:52:55 AM com.xiaomi.midrop [Thread:25841] failed to get bucket IOException:SocketException 
+2019-10-10 09:52:56 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:52:56 AM com.xiaomi.midrop [Thread:25808] network changed, no active network 
+2019-10-10 09:52:56 AM com.xiaomi.midrop [Thread:25808] JOB: disconnect the connection. 
+2019-10-10 09:52:56 AM com.xiaomi.midrop [Thread:25808] disconnect 135348595, null 
+2019-10-10 09:52:56 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:53:27 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:53:27 AM com.xiaomi.midrop [Thread:25808] network changed,[type: MOBILE[EDGE], state: CONNECTED/CONNECTED 
+2019-10-10 09:53:27 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:53:27 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:53:27 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:53:28 AM com.xiaomi.midrop [Thread:25808] tcp connected 
+2019-10-10 09:53:29 AM com.xiaomi.midrop [Thread:25808] load config failure: /data/user/0/com.xiaomi.midrop/files/XMCloudCfg (No such file or directory) 
+2019-10-10 09:53:29 AM com.xiaomi.midrop [Thread:25808] [slim] open conn: andver=25 sdk=38 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20190910.181153 
+2019-10-10 09:53:29 AM com.xiaomi.midrop [Thread:25808] connected to app.chat.global.xiaomi.net in 1343 
+2019-10-10 09:53:30 AM com.xiaomi.midrop [Thread:25862] setChallenge hash = 87d89f24 
+2019-10-10 09:53:30 AM com.xiaomi.midrop [Thread:25862] update the connection status. connecting -> connected : ERROR_OK  
+2019-10-10 09:53:30 AM com.xiaomi.midrop [Thread:25808] JOB: bind the client. 5 
+2019-10-10 09:53:30 AM com.xiaomi.midrop [Thread:25808] update the client 5 status. unbind->binding unknown ERROR_OK null null 
+2019-10-10 09:53:30 AM com.xiaomi.midrop [Thread:25808] [Slim]: bind id=UJTNq-0 
+2019-10-10 09:53:30 AM com.xiaomi.midrop [Thread:25862] [Slim] CONN: host = 25b3 
+2019-10-10 09:53:33 AM com.xiaomi.midrop [Thread:25808] SMACK: channel bind succeeded, chid=5 
+2019-10-10 09:53:33 AM com.xiaomi.midrop [Thread:25808] update the client 5 status. binding->binded OPEN ERROR_OK null null 
+2019-10-10 09:53:33 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:53:36 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:53:36 AM com.xiaomi.midrop [Thread:25808] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-10-10 09:53:37 AM com.xiaomi.midrop [Thread:25808] [Slim] SND ping id=0 
+2019-10-10 09:53:37 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:53:37 AM com.xiaomi.midrop [Thread:25808] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25862] [Slim] read Blob [] Err:Software caused connection abort 
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] JOB: shutdown the connection. 9, java.net.SocketException: Software caused connection abort 
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] disconnect 135348595, 85132904 
+2019-10-10 09:53:38 AM com.xiaomi.midrop  
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:112)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:157)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.xiaomi.push.ex.a(Unknown Source)
+	at com.xiaomi.push.fb.a(Unknown Source)
+	at com.xiaomi.push.fk.b(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.a(Unknown Source)
+	at com.xiaomi.push.fm.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] update the connection status. connected -> disconnected : ERROR_READ_ERROR  
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 500ms 
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] update the client 5 status. binded->unbind CLOSE ERROR_READ_ERROR null null 
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:53:38 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:54:10 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:54:10 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:UnknownHostException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 750ms 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] JOB: check the ping-pong.1570681417055 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] network changed,[type: MOBILE[EDGE], state: CONNECTED/CONNECTED 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] network changed,[type: MOBILE[EDGE], state: CONNECTED/CONNECTED 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = com.xiaomi.push.timer 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] Service called on timer 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:54:10 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:54:10 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:UnknownHostException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 17875ms 
+2019-10-10 09:54:10 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:54:28 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:54:28 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:54:28 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:54:37 AM com.xiaomi.midrop [Thread:25808] tcp connected 
+2019-10-10 09:54:37 AM com.xiaomi.midrop [Thread:25808] [slim] open conn: andver=25 sdk=38 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20190910.181153 
+2019-10-10 09:54:37 AM com.xiaomi.midrop [Thread:25808] connected to app.chat.global.xiaomi.net in 9298 
+2019-10-10 09:54:43 AM com.xiaomi.midrop [Thread:25866] [Slim] read Blob [] Err:Connection reset 
+2019-10-10 09:54:43 AM com.xiaomi.midrop [Thread:25808] JOB: shutdown the connection. 9, java.net.SocketException: Connection reset 
+2019-10-10 09:54:43 AM com.xiaomi.midrop [Thread:25808] disconnect 135348595, 85132904 
+2019-10-10 09:54:43 AM com.xiaomi.midrop  
+java.lang.NullPointerException: Attempt to get length of null array
+	at com.xiaomi.push.service.ae.a(Unknown Source)
+	at com.xiaomi.push.service.ae.a(Unknown Source)
+	at com.xiaomi.push.ex.a(Unknown Source)
+	at com.xiaomi.push.fb.a(Unknown Source)
+	at com.xiaomi.push.fk.b(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.a(Unknown Source)
+	at com.xiaomi.push.fm.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:54:43 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_READ_ERROR  
+2019-10-10 09:54:43 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 29376ms 
+2019-10-10 09:54:43 AM com.xiaomi.midrop [Thread:25808] max short conn time reached, sink down current host:app.chat.global.xiaomi.net 
+2019-10-10 09:54:43 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:55:13 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:55:13 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:55:13 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:56:06 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:56:06 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:UnknownHostException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:56:06 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:56:06 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 12464ms 
+2019-10-10 09:56:06 AM com.xiaomi.midrop [Thread:25868] network exception: IOException:UnknownHostException 
+2019-10-10 09:56:06 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:56:06 AM com.xiaomi.midrop [Thread:25868] failed to get bucket IOException:UnknownHostException 
+2019-10-10 09:56:18 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:56:18 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:56:18 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:57:14 AM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-10 09:57:14 AM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:UnknownHostException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-10 09:57:14 AM com.xiaomi.midrop [Thread:25808] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-10 09:57:14 AM com.xiaomi.midrop [Thread:25808] schedule reconnect in 104724ms 
+2019-10-10 09:57:14 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:58:08 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:58:08 AM com.xiaomi.midrop [Thread:25808] network changed,[type: MOBILE[UNKNOWN], state: SUSPENDED/SUSPENDED 
+2019-10-10 09:58:08 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:58:08 AM com.xiaomi.midrop [Thread:25808] network changed, no active network 
+2019-10-10 09:58:08 AM com.xiaomi.midrop [Thread:25808] JOB: disconnect the connection. 
+2019-10-10 09:58:08 AM com.xiaomi.midrop [Thread:25808] disconnect 135348595, null 
+2019-10-10 09:58:08 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-10 09:58:42 AM com.xiaomi.midrop [Thread:25808] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-10 09:58:42 AM com.xiaomi.midrop [Thread:25808] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-10-10 09:58:42 AM com.xiaomi.midrop [Thread:25808] JOB: do reconnect.. 
+2019-10-10 09:58:42 AM com.xiaomi.midrop [Thread:25808] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-10 09:58:42 AM com.xiaomi.midrop [Thread:25808] begin to connect to app.chat.global.xiaomi.net 
+2019-10-10 09:58:43 AM com.xiaomi.midrop [Thread:25808] tcp connected 
+2019-10-10 09:58:43 AM com.xiaomi.midrop [Thread:25808] [slim] open conn: andver=25 sdk=38 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20190910.181153 
+2019-10-10 09:58:43 AM com.xiaomi.midrop [Thread:25808] connected to app.chat.global.xiaomi.net in 884 
+2019-10-10 09:58:45 AM com.xiaomi.midrop [Thread:25871] setChallenge hash = 5f7882bd 
+2019-10-10 09:58:45 AM com.xiaomi.midrop [Thread:25871] update the connection status. connecting -> connected : ERROR_OK  
+2019-10-10 09:58:45 AM com.xiaomi.midrop [Thread:25871] [Slim] CONN: host = 25b3 
+2019-10-10 09:58:45 AM com.xiaomi.midrop [Thread:25808] JOB: bind the client. 5 
+2019-10-10 09:58:45 AM com.xiaomi.midrop [Thread:25808] update the client 5 status. unbind->binding unknown ERROR_OK null null 
+2019-10-10 09:58:45 AM com.xiaomi.midrop [Thread:25808] [Slim]: bind id=UJTNq-3 
+2019-10-10 09:58:46 AM com.xiaomi.midrop [Thread:25808] SMACK: channel bind succeeded, chid=5 
+2019-10-10 09:58:46 AM com.xiaomi.midrop [Thread:25808] update the client 5 status. binding->binded OPEN ERROR_OK null null 
+2019-10-10 09:58:46 AM com.xiaomi.midrop [Thread:25808] JOB: notify job 
+2019-10-30 21:31:54 PM com.xiaomi.midrop [Thread:19061] MIIDManager startMIIDUpdateListener failed cause lack of GET_ACCOUNTS permission 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] tcp connected 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] load config failure: /data/user/0/com.xiaomi.midrop/files/XMCloudCfg (No such file or directory) 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] [slim] open conn: andver=25 sdk=38 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20190910.181153 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] connected to app.chat.global.xiaomi.net in 1457 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = com.xiaomi.mipush.REGISTER_APP 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = action_cr_config 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] JOB: register app 
+2019-10-30 21:31:55 PM com.xiaomi.midrop [Thread:19080] JOB: do reconnect.. 
+2019-10-30 21:31:55 PM com.xiaomi.midrop try to connect while connecting. 
+2019-10-30 21:31:56 PM com.xiaomi.midrop [Thread:19095] setChallenge hash = fc567d31 
+2019-10-30 21:31:56 PM com.xiaomi.midrop [Thread:19095] update the connection status. connecting -> connected : ERROR_OK  
+2019-10-30 21:31:56 PM com.xiaomi.midrop [Thread:19080] JOB: bind the client. 5 
+2019-10-30 21:31:56 PM com.xiaomi.midrop [Thread:19080] update the client 5 status. unbind->binding unknown ERROR_OK null null 
+2019-10-30 21:31:56 PM com.xiaomi.midrop [Thread:19080] [Slim]: bind id=B0eoi-0 
+2019-10-30 21:31:56 PM com.xiaomi.midrop [Thread:19095] [Slim] CONN: host = bcc3 
+2019-10-30 21:31:58 PM com.xiaomi.midrop [Thread:19080] SMACK: channel bind succeeded, chid=5 
+2019-10-30 21:31:58 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1001  length 406 
+2019-10-30 21:31:58 PM com.xiaomi.midrop [Thread:19080] try send mi push message. packagename:com.xiaomi.midrop action:Registration 
+2019-10-30 21:31:58 PM com.xiaomi.midrop [Thread:19080] update the client 5 status. binding->binded OPEN ERROR_OK null null 
+2019-10-30 21:31:58 PM com.xiaomi.midrop [Thread:19080] JOB: notify job 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] receive a message, appid=2882303761517389432, msgid= b2w31 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1001  length 635 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] processing a message, action=Registration 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  2037  length 302 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  2041  length 312 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1009  length 312 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  2016  length 266 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1009  length 302 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  1003  length 287 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1009  length 266 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] ASSEMBLE_PUSH : assemble push register 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1003  length 287 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] try send mi push message. packagename:com.xiaomi.midrop action:Subscription 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] ASSEMBLE_PUSH :  FCM user switch : true FCM online switch : true FCM isSupport : true 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] ASSEMBLE_PUSH : send token upload 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  2048  length 574 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1009  length 574 
+2019-10-30 21:32:00 PM com.xiaomi.midrop [Thread:19080] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19080] receive a message, appid=2882303761517389432, msgid= dcn_1572451320770 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1009  length 1051 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19080] receive a message, appid=2882303761517389432, msgid= b2w34 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1009  length 757 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19080] receive a message, appid=2882303761517389432, msgid= b2w33 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1003  length 453 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19103] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19103] processing a message, action=Notification 
+2019-10-30 21:32:02 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  2014  length 1051 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] ASSEMBLE_PUSH : assemble push register 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] ASSEMBLE_PUSH : send token upload 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  2048  length 574 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] processing a message, action=Notification 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1009  length 574 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  2048  length 757 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] ASSEMBLE_PUSH : receive fcm token sync ack 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19061] ASSEMBLE_PUSH : receive correct token 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19061] ASSEMBLE_PUSH : update sp file success!  fftuPHvvWvQ:APA91bHXPcrBomcoSYi_x4vuNvEfv6WmHm8xxxN9GBSyPl7zAhECULR9AngTCpaBh1U-hEuRs1d7_9HPxtNOp8a8sBy1KhXJgnumdPtkANSA7MymU_d68ynZJOFGt0mEOBTb0L4U4Cvl 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1003  length 287 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19103] processing a message, action=Subscription 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] try send mi push message. packagename:com.xiaomi.midrop action:Subscription 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] receive a message, appid=2882303761517389432, msgid= b2w35 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1009  length 757 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] receive a message, appid=2882303761517389432, msgid= hP4z0 
+2019-10-30 21:32:03 PM com.xiaomi.midrop [Thread:19080] Perf_code  packetType  1003  length 391 
+2019-10-30 21:32:14 PM com.xiaomi.midrop [Thread:19103] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-10-30 21:32:14 PM com.xiaomi.midrop [Thread:19103] processing a message, action=Notification 
+2019-10-30 21:32:14 PM com.xiaomi.midrop [Thread:19103] Perf_code  packetType  2048  length 757 
+2019-10-30 21:32:14 PM com.xiaomi.midrop [Thread:19103] ASSEMBLE_PUSH : receive fcm token sync ack 
+2019-10-30 21:32:14 PM com.xiaomi.midrop [Thread:19103] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-10-30 21:32:14 PM com.xiaomi.midrop [Thread:19061] ASSEMBLE_PUSH : receive correct token 
+2019-10-30 21:32:14 PM com.xiaomi.midrop [Thread:19061] ASSEMBLE_PUSH : update sp file success!  fftuPHvvWvQ:APA91bHXPcrBomcoSYi_x4vuNvEfv6WmHm8xxxN9GBSyPl7zAhECULR9AngTCpaBh1U-hEuRs1d7_9HPxtNOp8a8sBy1KhXJgnumdPtkANSA7MymU_d68ynZJOFGt0mEOBTb0L4U4Cvl 
+2019-10-30 21:32:14 PM com.xiaomi.midrop [Thread:19103] processing a message, action=Subscription 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19095] [Slim] read Blob [] Err:Connection timed out 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] JOB: shutdown the connection. 9, java.net.SocketException: Connection timed out 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] disconnect 98026652, 184279287 
+2019-10-30 21:32:56 PM com.xiaomi.midrop  
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:112)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:157)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.xiaomi.push.ex.a(Unknown Source)
+	at com.xiaomi.push.fb.a(Unknown Source)
+	at com.xiaomi.push.fk.b(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.a(Unknown Source)
+	at com.xiaomi.push.fm.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] update the connection status. connected -> disconnected : ERROR_READ_ERROR  
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] schedule reconnect in 500ms 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] update the client 5 status. binded->unbind CLOSE ERROR_READ_ERROR null null 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] JOB: notify job 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] JOB: do reconnect.. 
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-30 21:32:56 PM com.xiaomi.midrop [Thread:19080] begin to connect to app.chat.global.xiaomi.net 
+2019-10-30 21:32:59 PM com.xiaomi.midrop SMACK: Could not connect to:app.chat.global.xiaomi.net 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19120] network exception: IOException:UnknownHostException 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19120] failed to get bucket IOException:UnknownHostException 
+2019-10-30 21:32:59 PM com.xiaomi.midrop fail to create Slim connection 
+SMACK: Could not connect to app.chat.global.xiaomi.net port:5222 err:UnknownHostException
+: 
+	at com.xiaomi.push.fk.o(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.j(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$d.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED  
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] schedule reconnect in 750ms 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] JOB: notify job 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] JOB: do reconnect.. 
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-30 21:32:59 PM com.xiaomi.midrop [Thread:19080] begin to connect to idmb-app-chat-global-xiaomi03-1358177476.ap-south-1.elb.amazonaws.com:5222 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] tcp connected 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] [slim] open conn: andver=25 sdk=38 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20190910.181153 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] connected to idmb-app-chat-global-xiaomi03-1358177476.ap-south-1.elb.amazonaws.com:5222 in 241 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19124] setChallenge hash = b372471a 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19124] update the connection status. connecting -> connected : ERROR_OK  
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] JOB: bind the client. 5 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] update the client 5 status. unbind->binding unknown ERROR_OK null null 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] [Slim]: bind id=B0eoi-10 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19124] [Slim] CONN: host = 5de1 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] SMACK: channel bind succeeded, chid=5 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] update the client 5 status. binding->binded OPEN ERROR_OK null null 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] JOB: notify job 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] [Slim] SND ping id=0 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19124] [Slim] RCV ping id=0 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] TinyData TinyDataCacheProcessor.pingFollowUpAction ts:1572451380938 
+2019-10-30 21:33:00 PM com.xiaomi.midrop [Thread:19080] TinyData TinyDataCacheProcessor.pingFollowUpAction !canUpload(uploader) ts:1572451380941 
+2019-10-30 21:33:10 PM com.xiaomi.midrop [Thread:19080] JOB: check the ping-pong.1572451380780 
+2019-10-30 21:33:23 PM com.xiaomi.midrop [Thread:19124] [Slim] read Blob [] Err:Software caused connection abort 
+2019-10-30 21:33:23 PM com.xiaomi.midrop [Thread:19080] JOB: shutdown the connection. 9, java.net.SocketException: Software caused connection abort 
+2019-10-30 21:33:23 PM com.xiaomi.midrop [Thread:19080] disconnect 98026652, 184279287 
+2019-10-30 21:33:23 PM com.xiaomi.midrop  
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:112)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:157)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.xiaomi.push.ex.a(Unknown Source)
+	at com.xiaomi.push.fb.a(Unknown Source)
+	at com.xiaomi.push.fk.b(Unknown Source)
+	at com.xiaomi.push.service.XMPushService.a(Unknown Source)
+	at com.xiaomi.push.fm.a(Unknown Source)
+	at com.xiaomi.push.service.XMPushService$i.run(Unknown Source)
+	at com.xiaomi.push.service.bo$c.run(Unknown Source)
+
+2019-10-30 21:33:23 PM com.xiaomi.midrop [Thread:19080] update the connection status. connected -> disconnected : ERROR_READ_ERROR  
+2019-10-30 21:33:23 PM com.xiaomi.midrop [Thread:19080] schedule reconnect in 1125ms 
+2019-10-30 21:33:23 PM com.xiaomi.midrop [Thread:19080] max short conn time reached, sink down current host:idmb-app-chat-global-xiaomi03-1358177476.ap-south-1.elb.amazonaws.com:5222 
+2019-10-30 21:33:23 PM com.xiaomi.midrop [Thread:19080] update the client 5 status. binded->unbind CLOSE ERROR_READ_ERROR null null 
+2019-10-30 21:33:23 PM com.xiaomi.midrop [Thread:19080] JOB: notify job 
+2019-10-30 21:33:24 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-30 21:33:24 PM com.xiaomi.midrop [Thread:19080] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-10-30 21:33:24 PM com.xiaomi.midrop [Thread:19080] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-10-30 21:33:24 PM com.xiaomi.midrop [Thread:19080] network changed,[type: WIFI[], state: CONNECTED/CONNECTED 
+2019-10-30 21:33:24 PM com.xiaomi.midrop [Thread:19080] JOB: do reconnect.. 
+2019-10-30 21:33:24 PM com.xiaomi.midrop [Thread:19080] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-10-30 21:33:24 PM com.xiaomi.midrop [Thread:19080] begin to connect to app.chat.global.xiaomi.net 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1313] MIIDManager startMIIDUpdateListener failed cause lack of GET_ACCOUNTS permission 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1313] do sync info 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1313] Perf_code  packetType  2022  length -1 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1313] Perf_code  packetType  2027  length -1 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: Init Job 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1] XMPushService created pid = 24601 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1316] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-11-22 12:55:40 PM com.xiaomi.midrop receiving an empty message, drop 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = action_cr_config 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: prepare the mi push account. 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] network changed, no active network 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: disconnect the connection. 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] disconnect 192762837, null 
+2019-11-22 12:55:40 PM com.xiaomi.midrop [Thread:1337] JOB: notify job 
+2019-11-22 12:55:45 PM com.xiaomi.midrop [Thread:1313] Perf_code  packetType  2016  length -1 
+2019-11-22 12:55:45 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: do reconnect.. 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] load bucket failure: the host is empty 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] begin to connect to idmb-app-chat-global-xiaomi03-1358177476.ap-south-1.elb.amazonaws.com:5222 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] tcp connected 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] load config failure: /data/user/0/com.xiaomi.midrop/files/XMCloudCfg (No such file or directory) 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] [slim] open conn: andver=25 sdk=38 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20191015.144423 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] connected to idmb-app-chat-global-xiaomi03-1358177476.ap-south-1.elb.amazonaws.com:5222 in 269 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1361] setChallenge hash = f45cc5e8 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1361] update the connection status. connecting -> connected : ERROR_OK  
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: disconnect the connection. 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] disconnect 192762837, 245238836 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1361] [Slim] CONN: host = c3bc 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] update the connection status. connected -> disconnected : ERROR_READ_TIMEOUT  
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] schedule reconnect in 500ms 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = android.net.conn.CONNECTIVITY_CHANGE 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] network changed,[type: MOBILE[LTE], state: CONNECTED/CONNECTED 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: bind the client. 5 
+2019-11-22 12:57:23 PM com.xiaomi.midrop trying bind while the connection is not created, quit! 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: notify job 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: do reconnect.. 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] update the connection status. disconnected -> connecting : ERROR_OK  
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] begin to connect to idmb-app-chat-global-xiaomi06-2047145834.ap-south-1.elb.amazonaws.com:5222 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] tcp connected 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] [slim] open conn: andver=25 sdk=38 hash=a-C16BB7021B6F653FD3C6FF25ACD7FABE2C4B5600 tz=5:0 Model=vivo 1611 os=eng.compil.20191015.144423 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] connected to idmb-app-chat-global-xiaomi06-2047145834.ap-south-1.elb.amazonaws.com:5222 in 124 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1363] setChallenge hash = 4e09981c 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1363] update the connection status. connecting -> connected : ERROR_OK  
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1337] JOB: bind the client. 5 
+2019-11-22 12:57:23 PM com.xiaomi.midrop [Thread:1363] [Slim] CONN: host = 00cf 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] update the client 5 status. unbind->binding unknown ERROR_OK null null 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] [Slim]: bind id=3ziVb-2 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] SMACK: channel bind succeeded, chid=5 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1009  length 302 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1009  length 724 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1009  length 308 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1009  length 266 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] try send mi push message. packagename:com.xiaomi.midrop action:Notification 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] update the client 5 status. binding->binded OPEN ERROR_OK null null 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] JOB: notify job 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1009  length 526 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] receive a message, appid=2882303761517389432, msgid= nre_150209478390_2882303761517389432 
+2019-11-22 12:57:24 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1009  length 526 
+2019-11-22 12:57:25 PM com.xiaomi.midrop [Thread:1316] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-11-22 12:57:25 PM com.xiaomi.midrop [Thread:1316] processing a message, action=Notification 
+2019-11-22 12:57:25 PM com.xiaomi.midrop [Thread:1316] Perf_code  packetType  2018  length 526 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = com.xiaomi.mipush.REGISTER_APP 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] JOB: register app 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1001  length 313 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] try send mi push message. packagename:com.xiaomi.midrop action:Registration 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-11-22 12:57:26 PM com.xiaomi.midrop receive message without registration. need re-register! 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] receive a message, appid=2882303761517389432, msgid= kM5k3 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1001  length 630 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] processing a message, action=Registration 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] Perf_code  packetType  1003  length 287 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] Perf_code  packetType  1003  length 287 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1003  length 287 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] try send mi push message. packagename:com.xiaomi.midrop action:Subscription 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] ASSEMBLE_PUSH : assemble push register 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] ASSEMBLE_PUSH : do not need to send token 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1003  length 287 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] try send mi push message. packagename:com.xiaomi.midrop action:Subscription 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] receive a message, appid=2882303761517389432, msgid= kM5k4 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1003  length 453 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] receive a message, appid=2882303761517389432, msgid= kM5k5 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1337] Perf_code  packetType  1003  length 453 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] processing a message, action=Subscription 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] receive an intent from server, action=com.xiaomi.mipush.RECEIVE_MESSAGE 
+2019-11-22 12:57:26 PM com.xiaomi.midrop [Thread:1316] processing a message, action=Subscription 
