@@ -1,0 +1,4 @@
+---Device Storage Info---
+/storage/emulated/0/Android/data/com.kaerosduplicatescleaner/files
+----------------------------
+

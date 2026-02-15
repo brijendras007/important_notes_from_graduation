@@ -1,0 +1,34 @@
+begin of last log 
+19:56:45.297 11075-4975 E/[YYTask-3-4978]NetLibSelect isUseCronet = true
+19:56:45.330 11075-4975 I/[MainThread]DownloadRequestManager onRequestStarted : https://static.ihago.net/a/famous-host/60858f09bbfb9af13f162f3f30283381.zip
+19:56:45.330 11075-4975 I/[YYTask-15-4994]WebPreload_ResDownloader onStart famous-host md5:60858f09bbfb9af13f162f3f30283381 url:https://static.ihago.net/a/famous-host/60858f09bbfb9af13f162f3f30283381.zip 
+19:56:45.330 11075-4975 I/[YYTask-17-4996]GameDL restartAutoDownload silent size: 0
+19:56:45.330 11075-4975 E/[YYTask-31-5012]WsClient web socket had not connected
+19:56:45.648 11075-4975 I/[MainThread]LocationHelper location permission is valid mLastLocationTime: 1576679038676, curTiem: 1576679205647
+19:56:45.650 11075-4975 I/[YYTask-24-5004]GoogleMapLocation startLocation
+19:56:45.663 11075-4975 I/[SubThreadHandler-5055]GoogleMapLocation onLocationAvailability: false
+19:56:45.663 11075-4975 I/[SubThreadHandler-5055]GoogleMapLocation onLocationAvailability: get last!
+19:56:46.636 11075-4975 I/[MainThread]MainActivity onWindowFocusChanged hasFocus: false
+19:56:46.636 11075-4975 I/[MainThread]DialogLinkManager onMainActivityWindowFocusChanged hasFocus: false, sShowingDialogId: -2147483648
+19:56:46.737 11075-4975 I/[MainThread]ServiceNotifyCenter onForegroundChange: isForeground=false
+19:56:46.737 11075-4975 I/[MainThread]CrashSdkHelper addExtend key: foreground, value: 0
+19:56:46.737 11075-4975 I/[MainThread]ModuleContext_PageMvpContext_HomeGameModule$@a15342d  onEvent ON_PAUSE
+19:56:46.737 11075-4975 I/[MainThread]GameExtController mHomePageHideTime=1576679206734
+19:56:46.740 11075-4975 I/[MainThread]HomeDialogController onHomeMainHidden
+19:56:46.740 11075-4975 I/[MainThread]FeatureGameCoins GameCoinsDataModel setGoHomeHasPlayGoldGame: false
+19:56:46.740 11075-4975 I/[MainThread]FeatureHomePageList HomeMainLifeCycleManager onHomeHidden
+19:56:46.740 11075-4975 I/[MainThread]PageMvpContext_PageMvpContext_PageMvpContext$@44d0d  onEvent ON_STOP
+19:56:46.740 11075-4975 I/[MainThread]RandomGameEntryController N_FOREGROUND_CHANGE:false
+19:56:46.740 11075-4975 I/[MainThread]LocalPushManager notify  false
+19:56:46.740 11075-4975 I/[MainThread]AlarmManagerUtils cancelAlarm action_alarm_local_push
+19:56:46.742 11075-4975 I/[MainThread]LocalPushManager realStartAlarm 14400000
+19:56:46.762 11075-4975 E/[MainThread]MainActivity onPause()
+19:56:46.772 11075-4975 E/[MainThread]MainActivity onStop()
+19:56:46.776 11075-4975 I/[MainThread]YYLruResourceCache trimMemory, level=20
+19:56:46.776 11075-4975 I/[MainThread]YYLruBitmapPool trimMemory, level=20
+19:56:46.776 11075-4975 E/[MainThread]History trim level: 20
+19:56:46.776 11075-4975 I/[MainThread]WebViewReuse releaseCacheByTrimMemory
+19:56:46.791 11075-4975 I/[MainThread]YYLruResourceCache trimMemory, level=20
+19:56:46.791 11075-4975 I/[MainThread]YYLruBitmapPool trimMemory, level=20
+
+end of last log 
